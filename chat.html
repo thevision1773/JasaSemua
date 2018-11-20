@@ -28,7 +28,8 @@
 
     <!-- CUSTOM CSS -->
     <link href="css/style.css" rel="stylesheet">
-    <link href="css/map-style.css" rel="stylesheet">
+		<link href="css/map-style.css" rel="stylesheet">
+		<link href="css/chat-style.css" rel="stylesheet">
     <link rel="stylesheet" href="css/default.css" id="option_color">
 
     <!-- Icons -->
@@ -179,211 +180,148 @@
 
       <!-- BANNER -->
       
-      <div class="page-area contact-page">
-        <div class="container contact-info-warp">
-          <div class="contact-card">
-            <div class="contact-info">
-              <h4>Search Jobs</h4>
-              <p>Searched by area:</p>
-              <input class="form-control" type="text" placeholder="ex. Jakarta Pusat" style="line-height:2px; margin-bottom:20px">
-              <p>Select Job Category:</p>
-              <input class="form-control" type="text" placeholder="ex. Programmer" style="line-height:2px; margin-bottom:20px">
-              <p>Search Job's name:</p>
-              <input class="form-control" type="text" placeholder="ex. Java Developer" style="line-height:2px; margin-bottom:20px">
-              <p><button type="button" class="btn btn-primary btn-rounded" style="border: 1px solid white">Search</button></p>
-            </div>
-          </div>
-        </div>
-        <div class="map-area">
-          <div class="map" id="map-canvas"></div>
-        </div>
-      </div>
-      <div class="grid-wrapper section">
-        <div class="container">
-          <div class="row">
-      
-            <div class="col-12 col-lg-12 element-content pt-5">
-              
-      
-      
-      <!-- =============================================
-      ## Divider
-      =============================================== -->
-      <div id="dropdowns" class="element_single">
-        <div id="accordion" role="tablist" aria-multiselectable="true">
-          <div class="card single-block">
-            <div class="card-header" role="tab" id="headingOne">
-              <h3 class="mb-0">
-                Results
-              </h3>
-            </div>
-          </div>
-        </div>
-        
-        <!-- Width start -->
-        <div id="accordion" role="tablist" aria-multiselectable="true">
-          <div class="card single-block">
-      
-            <div id="collapseTwo" class="collapse show" role="tabpanel" aria-labelledby="headingTwo" style="">
-              <div class="card-block">
-                <div class="code_container">
-                  <div class="display-single_element">
-                    <h3 class="mb-0">
-                        <u> A's Company Java Developer </u>
-                    </h3>
-                    Jalan Kelinci Raya no. 19, Jakarta Pusat
-                    <p>
-											<b>Job Type: </b><i>Remote</i><br>
-                      <b>Job Desk:</b><br>
-                      Lorem ipsum dolor sit amet, consectetur adipisicing elit. Perferendis totam, laudantium officia praesentium expedita omnis unde tempora beatae, modi, sequi quis. Est quas corporis nobis aperiam cumque, minima, libero rem itaque quo vitae odit deserunt cupiditate fugit ipsum, nam quis suscipit tempora recusandae blanditiis porro incidunt maxime soluta. Voluptas, rem.
-                    </p>
-                    <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#job1">
-											Ambil!
-										</button>
-										<div class="modal fade quick-view-drone" id="job1" tabindex="-1" role="dialog" aria-hidden="true" style="display: none;">
-											<div class="modal-dialog">
-												<div class="modal-content">
-													<div class="modal-body">
-														<button type="button" class="close" data-dismiss="modal" aria-hidden="true"><i class="fa fa-close"></i></button>
-														<div class="media flex-wrap">
-															<div class="media-left px-0">
-																<img class="media-object" src="img/job/java.jpg" alt="Image">
-															</div>
-															<div class="media-body">
-																<h2>A's Company Java Developer</h2>
-																<h3>Rp 3.000.000 - 5.000.000</h3>
-																<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ratione iste excepturi obcaecati expedita provident necessitatibus magnam enim recusandae debitis culpa?</p>
-																
-																<div class="btn-area">
-																	<a href="#" class="btn btn-primary btn-block">Apply Job <i class="fa fa-angle-right" aria-hidden="true"></i></a>
-																</div>
-															</div>
-														</div>
+      <div class="container">
+					<div class="messaging">
+								<div class="inbox_msg">
+									<div class="inbox_people">
+										<div class="headind_srch">
+											<div class="recent_heading">
+												<h4>Recent</h4>
+											</div>
+											<div class="srch_bar">
+												<div class="stylish-input-group">
+													<input type="text" class="search-bar"  placeholder="Search" >
+													<span class="input-group-addon">
+													<button type="button"> <i class="fa fa-search" aria-hidden="true"></i> </button>
+													</span> </div>
+											</div>
+										</div>
+										<div class="inbox_chat">
+											<div class="chat_list active_chat">
+												<div class="chat_people">
+													<div class="chat_img"> <img src="https://ptetutorials.com/images/user-profile.png" alt="sunil"> </div>
+													<div class="chat_ib">
+														<h5>Sunil Rajput <span class="chat_date">Dec 25</span></h5>
+														<p>Test, which is a new approach to have all solutions 
+															astrology under one roof.</p>
+													</div>
+												</div>
+											</div>
+											<div class="chat_list">
+												<div class="chat_people">
+													<div class="chat_img"> <img src="https://ptetutorials.com/images/user-profile.png" alt="sunil"> </div>
+													<div class="chat_ib">
+														<h5>Sunil Rajput <span class="chat_date">Dec 25</span></h5>
+														<p>Test, which is a new approach to have all solutions 
+															astrology under one roof.</p>
+													</div>
+												</div>
+											</div>
+											<div class="chat_list">
+												<div class="chat_people">
+													<div class="chat_img"> <img src="https://ptetutorials.com/images/user-profile.png" alt="sunil"> </div>
+													<div class="chat_ib">
+														<h5>Sunil Rajput <span class="chat_date">Dec 25</span></h5>
+														<p>Test, which is a new approach to have all solutions 
+															astrology under one roof.</p>
+													</div>
+												</div>
+											</div>
+											<div class="chat_list">
+												<div class="chat_people">
+													<div class="chat_img"> <img src="https://ptetutorials.com/images/user-profile.png" alt="sunil"> </div>
+													<div class="chat_ib">
+														<h5>Sunil Rajput <span class="chat_date">Dec 25</span></h5>
+														<p>Test, which is a new approach to have all solutions 
+															astrology under one roof.</p>
+													</div>
+												</div>
+											</div>
+											<div class="chat_list">
+												<div class="chat_people">
+													<div class="chat_img"> <img src="https://ptetutorials.com/images/user-profile.png" alt="sunil"> </div>
+													<div class="chat_ib">
+														<h5>Sunil Rajput <span class="chat_date">Dec 25</span></h5>
+														<p>Test, which is a new approach to have all solutions 
+															astrology under one roof.</p>
+													</div>
+												</div>
+											</div>
+											<div class="chat_list">
+												<div class="chat_people">
+													<div class="chat_img"> <img src="https://ptetutorials.com/images/user-profile.png" alt="sunil"> </div>
+													<div class="chat_ib">
+														<h5>Sunil Rajput <span class="chat_date">Dec 25</span></h5>
+														<p>Test, which is a new approach to have all solutions 
+															astrology under one roof.</p>
+													</div>
+												</div>
+											</div>
+											<div class="chat_list">
+												<div class="chat_people">
+													<div class="chat_img"> <img src="https://ptetutorials.com/images/user-profile.png" alt="sunil"> </div>
+													<div class="chat_ib">
+														<h5>Sunil Rajput <span class="chat_date">Dec 25</span></h5>
+														<p>Test, which is a new approach to have all solutions 
+															astrology under one roof.</p>
 													</div>
 												</div>
 											</div>
 										</div>
-                    <hr class="w75 my-4">
-                    <h3 class="mb-0">
-                        <u> B's Company Python Developer </u>
-                    </h3>
-                    Jalan Ayam no. 32, Jakarta Pusat
-                    <p>
-											<b>Job Type: </b><i>Remote</i><br>
-                      <b>Job Desk:</b><br>
-                      Lorem ipsum dolor sit amet, consectetur adipisicing elit. Perferendis totam, laudantium officia praesentium expedita omnis unde tempora beatae, modi, sequi quis. Est quas corporis nobis aperiam cumque, minima, libero rem itaque quo vitae odit deserunt cupiditate fugit ipsum, nam quis suscipit tempora recusandae blanditiis porro incidunt maxime soluta. Voluptas, rem.
-                    </p>
-                    <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#job2">
-											Ambil!
-										</button>
-										<div class="modal fade quick-view-drone" id="job2" tabindex="-1" role="dialog" aria-hidden="true" style="display: none;">
-											<div class="modal-dialog">
-												<div class="modal-content">
-													<div class="modal-body">
-														<button type="button" class="close" data-dismiss="modal" aria-hidden="true"><i class="fa fa-close"></i></button>
-														<div class="media flex-wrap">
-															<div class="media-left px-0">
-																<img class="media-object" src="img/job/python.png" alt="Image">
-															</div>
-															<div class="media-body">
-																<h2>B's Company Python Developer</h2>
-																<h3>Rp 3.000.000 - 5.000.000</h3>
-																<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ratione iste excepturi obcaecati expedita provident necessitatibus magnam enim recusandae debitis culpa?</p>
-																
-																<div class="btn-area">
-																	<a href="#" class="btn btn-primary btn-block">Apply Job <i class="fa fa-angle-right" aria-hidden="true"></i></a>
-																</div>
-															</div>
-														</div>
-													</div>
+									</div>
+									<div class="mesgs">
+										<div class="msg_history">
+											<div class="incoming_msg">
+												<div class="incoming_msg_img"> <img src="https://ptetutorials.com/images/user-profile.png" alt="sunil"> </div>
+												<div class="received_msg">
+													<div class="received_withd_msg">
+														<p>Test which is a new approach to have all
+															solutions</p>
+														<span class="time_date"> 11:01 AM    |    June 9</span></div>
+												</div>
+											</div>
+											<div class="outgoing_msg">
+												<div class="sent_msg">
+													<p>Test which is a new approach to have all
+														solutions</p>
+													<span class="time_date"> 11:01 AM    |    June 9</span> </div>
+											</div>
+											<div class="incoming_msg">
+												<div class="incoming_msg_img"> <img src="https://ptetutorials.com/images/user-profile.png" alt="sunil"> </div>
+												<div class="received_msg">
+													<div class="received_withd_msg">
+														<p>Test, which is a new approach to have</p>
+														<span class="time_date"> 11:01 AM    |    Yesterday</span></div>
+												</div>
+											</div>
+											<div class="outgoing_msg">
+												<div class="sent_msg">
+													<p>Apollo University, Delhi, India Test</p>
+													<span class="time_date"> 11:01 AM    |    Today</span> </div>
+											</div>
+											<div class="incoming_msg">
+												<div class="incoming_msg_img"> <img src="https://ptetutorials.com/images/user-profile.png" alt="sunil"> </div>
+												<div class="received_msg">
+													<div class="received_withd_msg">
+														<p>We work directly with our designers and suppliers,
+															and sell direct to you, which means quality, exclusive
+															products, at a price anyone can afford.</p>
+														<span class="time_date"> 11:01 AM    |    Today</span></div>
 												</div>
 											</div>
 										</div>
-                    <hr class="w75 my-4">
-                    <h3 class="mb-0">
-                        <u> C's Company PHP Developer </u>
-                    </h3>
-                    Jalan Tikus no. 22, Jakarta Pusat
-                    <p>
-											<b>Job Type: </b><i>Remote</i><br>
-                      <b>Job Desk:</b><br>
-                      Lorem ipsum dolor sit amet, consectetur adipisicing elit. Perferendis totam, laudantium officia praesentium expedita omnis unde tempora beatae, modi, sequi quis. Est quas corporis nobis aperiam cumque, minima, libero rem itaque quo vitae odit deserunt cupiditate fugit ipsum, nam quis suscipit tempora recusandae blanditiis porro incidunt maxime soluta. Voluptas, rem.
-                    </p>
-                    <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#job3">
-											Ambil!
-										</button>
-										<div class="modal fade quick-view-drone" id="job3" tabindex="-1" role="dialog" aria-hidden="true" style="display: none;">
-											<div class="modal-dialog">
-												<div class="modal-content">
-													<div class="modal-body">
-														<button type="button" class="close" data-dismiss="modal" aria-hidden="true"><i class="fa fa-close"></i></button>
-														<div class="media flex-wrap">
-															<div class="media-left px-0">
-																<img class="media-object" src="img/job/php.png" alt="Image">
-															</div>
-															<div class="media-body">
-																<h2>C's Company PHP Developer</h2>
-																<h3>Rp 3.000.000 - 5.000.000</h3>
-																<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ratione iste excepturi obcaecati expedita provident necessitatibus magnam enim recusandae debitis culpa?</p>
-																
-																<div class="btn-area">
-																	<a href="#" class="btn btn-primary btn-block">Apply Job <i class="fa fa-angle-right" aria-hidden="true"></i></a>
-																</div>
-															</div>
-														</div>
-													</div>
-												</div>
+										<div class="type_msg">
+											<div class="input_msg_write">
+												<input type="text" class="write_msg" placeholder="Type a message" />
+												<button class="msg_send_btn" type="button"><i class="fa fa-paper-plane-o" aria-hidden="true"></i></button>
 											</div>
 										</div>
-                    <hr class="w75 my-4">
-                    <h3 class="mb-0">
-                        <u> D's Company Ruby Developer </u>
-                    </h3>
-                    Jalan Kelinci Raya no. 21, Jakarta Pusat
-                    <p>
-											<b>Job Type: </b><i>Remote</i><br>
-                      <b>Job Desk:</b><br>
-                      Lorem ipsum dolor sit amet, consectetur adipisicing elit. Perferendis totam, laudantium officia praesentium expedita omnis unde tempora beatae, modi, sequi quis. Est quas corporis nobis aperiam cumque, minima, libero rem itaque quo vitae odit deserunt cupiditate fugit ipsum, nam quis suscipit tempora recusandae blanditiis porro incidunt maxime soluta. Voluptas, rem.
-                    </p>
-                    <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#job4">
-											Ambil!
-										</button>
-										<div class="modal fade quick-view-drone" id="job4" tabindex="-1" role="dialog" aria-hidden="true" style="display: none;">
-											<div class="modal-dialog">
-												<div class="modal-content">
-													<div class="modal-body">
-														<button type="button" class="close" data-dismiss="modal" aria-hidden="true"><i class="fa fa-close"></i></button>
-														<div class="media flex-wrap">
-															<div class="media-left px-0">
-																<img class="media-object" src="img/job/ruby.jpg" alt="Image">
-															</div>
-															<div class="media-body">
-																<h2>D's Company Ruby Developer</h2>
-																<h3>Rp 3.000.000 - 5.000.000</h3>
-																<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ratione iste excepturi obcaecati expedita provident necessitatibus magnam enim recusandae debitis culpa?</p>
-																
-																<div class="btn-area">
-																	<a href="#" class="btn btn-primary btn-block">Apply Job <i class="fa fa-angle-right" aria-hidden="true"></i></a>
-																</div>
-															</div>
-														</div>
-													</div>
-												</div>
-											</div>
-										</div>
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-      
-      </div>
-      
-                </div> <!-- element-content ends -->
-              </div>
-            </div> <!-- element main container ends -->
-          </div>
+									</div>
+								</div>
+								
+								
+								
+							</div></div>
        
 
       <!-- MAIN CONTENT SECTION -->
